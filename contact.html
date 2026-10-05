@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Created by Askarbek Jaxilikov -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slice House - Contact</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="main-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white py-2" aria-label="Main navigation">
+        <div class="container-fluid px-3 px-sm-2 px-lg-4">
+          <div class="brand-block me-3">
+<a class="navbar-brand logo mb-0" href="index.html">Slice House</a><span class="delivery-info">Pizza delivery in Astana · 30-45 min</span>
+</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNav" aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="siteNav"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+<li class="nav-item"><a class="nav-link " href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link " href="menu.html">Menu</a></li>
+<li class="nav-item"><a class="nav-link " href="locations.html">Locations</a></li>
+<li class="nav-item"><a class="nav-link " href="about.html">About Us</a></li>
+<li class="nav-item"><a class="nav-link " href="careers.html">Careers</a></li>
+<li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+             <li class="nav-item mt-2 mt-lg-0"><button class="btn btn-primary btn-sm rounded-pill" type="button" data-bs-toggle="offcanvas" data-bs-target="#cartPanel" aria-controls="cartPanel">Cart <span id="cart-count" class="badge text-bg-light">0</span></button></li>
+          </ul></div>
+        </div>
+      </nav>
+    </header><main class="container py-3 py-lg-4 px-sm-2">
+    <h1 class="mb-3">Contact Us</h1>
+    <img class="contact-image mb-4" src="assets/contact.jpg" alt="Slice House restaurant">
+
+    <section class="row g-4 mt-0">
+        <div class="col-12 col-lg-5"><div class="info-card p-4 h-100">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +7 700 123 45 67</p>
+            <p><strong>Email:</strong> hello@slicehouse.kz</p>
+            <p><strong>City:</strong> Astana, Kazakhstan</p>
+            <p><strong>Working hours:</strong> 10:00 - 23:00</p>
+        </div></div>
+
+        <div class="col-12 col-lg-7"><div class="form-panel p-4 h-100">
+            <h2>Send us a message</h2>
+            <form id="contact-form" class="row g-3" novalidate="novalidate">
+                <div class="col-12 col-sm-6">
+<label for="name" class="form-label mb-1">Name</label>
+                <input type="text" id="name" name="name" required class="form-control">
+
+                </div>
+<div class="col-12 col-sm-6">
+<label for="email" class="form-label mb-1">Email</label>
+                <div class="input-group">
+<span class="input-group-text" aria-hidden="true">@</span><input type="email" id="email" name="email" required class="form-control">
+
+                </div>
+</div>
+<div class="col-12">
+<label for="topic" class="form-label mb-1">Topic</label>
+                <select id="topic" name="topic" class="form-select">
+                    <option value="question">General Question</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="order">Order Problem</option>
+                    <option value="career">Career</option>
+                </select>
+
+                </div>
+<div class="col-12">
+<label for="message" class="form-label mb-1">Message</label>
+                <textarea id="message" name="message" required class="form-control"></textarea>
+                </div>
+<div class="col-12">
+  <div class="form-check">
+    <input class="form-check-input" type="checkbox" id="preview-toggle" aria-controls="message-preview">
+    <label class="form-check-label" for="preview-toggle">Preview my message</label>
+  </div>
+  <div id="message-preview" class="border rounded bg-light p-3 mt-2" hidden>
+    <strong>Message preview</strong>
+    <p id="message-preview-text" class="mb-0 text-break"></p>
+  </div>
+</div>
+<fieldset class="col-12">
+<legend class="fs-6 mb-2">Preferred reply</legend>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="reply" id="reply-email" value="email" checked><label class="form-check-label" for="reply-email">Email</label>
+</div>
+<div class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="reply" id="reply-phone" value="phone"><label class="form-check-label" for="reply-phone">Phone</label>
+</div>
+</fieldset>
+<div class="col-12">
+<button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+</form>
+        <p id="form-status" class="visually-hidden" role="status" aria-live="polite"></p>
+<p class="small text-muted mt-3 mb-0">This is a demo form. Messages are not sent to a server.</p>
+        </div></div>
+    </section>
+</main>
+
+<footer class="site-footer mt-5 py-4">
+    <div class="footer-inner container-fluid px-3 px-lg-4 d-flex flex-wrap justify-content-between gap-3">
+        <div>
+            <h3>Slice House</h3>
+            <p>Fresh pizza in Astana.</p>
+        </div>
+        <div class="footer-links">
+            <a href="menu.html">Menu</a>
+            <a href="locations.html">Locations</a>
+            <a href="about.html">About</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div>
+            <p>Team Members:</p>
+            <p>Arsen Kuanov, Dosymzhan Abdiqkazyuly, Askarbek Jaxilikov</p>
+            <p>© 2026 Slice House</p>
+        </div>
+    </div>
+</footer>
+<div class="offcanvas offcanvas-end" tabindex="-1" id="cartPanel" aria-labelledby="cartTitle">
+      <div class="offcanvas-header">
+<h2 class="offcanvas-title fs-5" id="cartTitle">Your cart</h2>
+<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+      <div class="offcanvas-body">
+<ul id="cart-items" class="list-group mb-3"></ul>
+<p id="cart-empty" class="text-muted">Your cart is empty.</p>
+<p id="cart-total" class="fw-bold"></p>
+<button id="clear-cart" type="button" class="btn btn-outline-primary btn-sm">Clear cart</button><p class="small text-muted mt-3">Checkout is not available in this demo.</p>
+</div>
+    </div>
+<script src="vendor/bootstrap.bundle.min.js"></script><script src="app.js" defer></script>
+</body>
+</html>
