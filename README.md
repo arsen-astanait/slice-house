@@ -4,7 +4,7 @@ Slice House is a responsive multi-page pizza restaurant website created for the 
 
 ## Live website
 
-[https://slice-house-asik3.netlify.app/](https://slice-house.netlify.app)
+https://slice-house.netlify.app
 
 ## Pages
 
